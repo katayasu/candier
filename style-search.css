@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@media screen and (min-width: 720px){
+*{
+	margin: 0 auto;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+body{
+	max-width: 1400px;
+	font-family: 'Raleway', sans-serif;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+header{
+	height: 120px;
+}
+
+header img{
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+header ul{
+	display: inline-flex;
+	margin-left: 950px;
+}
+
+header li{
+	list-style: none;
+	font-size: 25px;
+	margin-left: 50px;
+	transition: 1s;
+}
+
+header li:hover{
+	transform: 0.5s;
+}
+
+.navigation{
+	margin-top: -28px;
+}
+
+.navigation ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+input[type="radio"]{
+	position:absolute;
+	left:-9999px;
+}
+
+.tovar{
+	display:block;
+	max-width:100%;
+	height:60%;
+}
+
+ol{
+	list-style:none;
+}
+
+h2{
+	text-align:center;
+	margin-bottom:2rem;
+}
+
+.filters-all{
+	padding:1.5rem;
+}
+
+.conrainer{
+	max-width:1200px;
+	margin:0 auto;
+}
+
+:root{
+	-black:#3a3a3a;
+	-white:#fff;
+	-green:#49b293;
+}
+
+.filters{
+	text-align:center;
+	margin-bottom:2rem;
+}
+
+.filters *{
+	display:inline-block;
+}
+
+.filters label{
+	padding: 0.5rem 1 rem;
+	margin-bottom:0.25rem;
+	border-radius:2rem;
+	min-width:50px;
+	line-height:normal;
+}
+
+.filters label:hover{
+	background:var(--green);
+	color:var(--white);
+}
+
+.plumbing{
+	display:grid;
+	grid-gap:1.5rem;
+	grid-template-columns:repeat(4, 1fr);
+}
+
+.plumbing .product{
+	background:#fafafa;
+	border:1px solid rgba(0,0,0,0.1);
+}
+
+.plumbing .post-title{
+	font-size:1.3rem;
+}
+
+.plumbing .post-title:hover{
+	text-decoration:underline;
+}
+
+.plumbing figcaption{
+	padding:1rem;
+}
+
+[value="All"]:checked~.plumbing[data-category]{
+	display:block;
+}
+
+[value="candles-girls"]:checked~.plumbing .product:not([data-category~="candles-girls"]),
+[value="candles-men"]:checked~.plumbing .product:not([data-category~="candles-men"]){
+	display:none;
+}
+
+[value="All"]:checked~.filters[for="All"],
+[value="candles-girls"]:checked~.filters[for="candles-girls"],
+[value="candles-men"]:checked~.filters[for="candles-men"]{
+	background:var(--green);
+	color:var(--white);
+}
+
+figcaption p{
+	text-align: center;
+	padding-top: 5px;
+}
+
+figcaption h3{
+	text-align: center;
+}
+
+.post-title{
+	height: 30px;
+}
+
+footer{
+	background-color: #bfbfbf;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+iframe{
+	padding-top: 15px;
+	width: 600px;
+	height: 300px;
+	padding-bottom: 20px;
+}
+
+.menu{
+	padding-top: 40px;
+}
+
+.navi{
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+}
+
+.navi a{
+	padding-top: 5px;
+	color: black;
+	text-decoration: none;
+}
+
+.contacts{
+	padding-top: 40px;
+}
+
+.contacts div{
+	padding-top: 10px;
+}
+
+.contacts div p{
+	padding-top: 5px;
+}
+
+.map{
+	padding-top: 40px;
+}
+}
+
+
+@media screen and (max-width: 720px) {
+* {
+		margin: 0 auto;
+		padding: 0;
+		scroll-behavior: smooth;
+	}
+
+	body {
+		max-width: 375px;
+		font-family: 'Raleway', sans-serif;
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+	}
+
+	header img {
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	header ul {
+		margin-left: 300px;
+	}
+
+	.navigation li {
+		list-style: none;
+	}
+
+	.navigation ul li a {
+		color: black;
+		text-decoration: none;
+	}
+	
+	input[type="radio"]{
+	position:absolute;
+	left:-9999px;
+}
+
+.tovar{
+	display:block;
+	max-width:100%;
+	height:60%;
+}
+
+ol{
+	list-style:none;
+}
+
+h2{
+	text-align:center;
+	margin-bottom:2rem;
+}
+
+.filters-all{
+	padding:1.5rem;
+}
+
+.container{
+	max-width:375px;
+	margin:0 auto;
+}
+
+:root{
+	-black:#3a3a3a;
+	-white:#fff;
+	-green:#49b293;
+}
+
+.filters *{
+	display: inline-flex;
+}
+
+.filters{
+	text-align:center;
+	margin-bottom:2rem;
+}
+
+.filters label{
+	padding: 0.5rem 1 rem;
+	margin-bottom:0.25rem;
+	border-radius:2rem;
+	min-width:50px;
+	line-height:normal;
+}
+
+.filters label:hover{
+	background:var(--green);
+	color:var(--white);
+}
+
+.plumbing{
+	display:grid;
+	grid-gap:1.5rem;
+	grid-template-columns:repeat(2);
+}
+
+.plumbing .product{
+	background:#fafafa;
+	border:1px solid rgba(0,0,0,0.1);
+}
+
+.plumbing .post-title{
+	font-size:16px;
+}
+
+.plumbing .post-title:hover{
+	text-decoration:underline;
+}
+
+.plumbing figcaption{
+	padding:1rem;
+}
+
+[value="All"]:checked~.plumbing[data-category]{
+	display:block;
+}
+
+[value="candles-girls"]:checked~.plumbing .product:not([data-category~="candles-girls"]),
+[value="candles-men"]:checked~.plumbing .product:not([data-category~="candles-men"]){
+	display:none;
+}
+
+[value="All"]:checked~.filters[for="All"],
+[value="candles-girls"]:checked~.filters[for="candles-girls"],
+[value="candles-men"]:checked~.filters[for="candles-men"]{
+	background:var(--green);
+	color:var(--white);
+}
+
+figcaption p{
+	font-size: 15px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+figcaption h3{
+	margin-top: -25px;
+	text-align: center;
+	font-size: 17px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+.post-title{
+	height: 30px;
+}
+
+	footer {
+		background-color: #bfbfbf;
+		margin-top: 10px;
+	}
+
+	.inf{
+		display: flex;
+		flex-direction: row;
+	}
+
+	iframe {
+		padding-left: 35px;
+		padding-top: 15px;
+		width: 300px;
+		height: 150px;
+		padding-bottom: 20px;
+	}
+
+	.menu {
+		padding-top: 10px;
+	}
+
+	.navi {
+		display: flex;
+		flex-direction: column;
+		padding-top: 10px;
+	}
+
+	.navi a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.navi a {
+		padding-top: 5px;
+	}
+
+	.contacts {
+		padding-top: 10px;
+	}
+
+	.contacts div {
+		padding-top: 10px;
+	}
+
+	.contacts div p {
+		padding-top: 5px;
+	}
+
+	.map h3{
+		padding-left: 35px;
+	}
+
+	.map {
+		padding-top: 10px;
+	}
+	}

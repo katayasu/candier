@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@media screen and (min-width: 720px) {
+*{
+	margin: 0 auto;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+body{
+	max-width: 1400px;
+	font-family: 'Raleway', sans-serif;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+header{
+	height: 120px;
+}
+
+header img{
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+header ul{
+	display: inline-flex;
+	margin-left: 950px;
+}
+
+header li{
+	list-style: none;
+	font-size: 25px;
+	margin-left: 50px;
+	transition: 1s;
+}
+
+header li:hover{
+	transform: 0.5s;
+}
+
+.navigation{
+	margin-top: -28px;
+}
+
+.navigation ul li a{
+	color: black;
+	text-decoration: none;
+}
+
+.tovar{
+	padding-top: 30px;
+	margin-left: 50px;
+	padding-bottom: 30px;
+}
+
+.tovar .tovars{
+	width: 580px;
+	height: 580px;
+}
+
+.info{
+	margin-left: 620px;
+	margin-top: -580px;
+}
+
+.info h3{
+	padding-top: 20px;
+}
+
+.info p{
+	padding-top: 20px;
+}
+
+.info ul{
+	margin-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.info ul li{
+	padding-top: 5px;
+}
+
+.info h1{
+	font-size: 30px;
+}
+
+.info h2{
+	padding-top: 10px;
+}
+
+.info a{
+	text-decoration: none;
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	border-radius: 35px;
+	padding: 10px;
+	margin-left: 40px;
+	transition: 1s;
+}
+
+.info a:hover{
+	color: white;
+	background-color: black;
+	transform: 0,5s;
+}
+
+footer{
+	background-color: #bfbfbf;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+iframe{
+	padding-top: 15px;
+	width: 600px;
+	height: 300px;
+	padding-bottom: 20px;
+}
+
+.menu{
+	padding-top: 40px;
+}
+
+.navi{
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+}
+
+.navi a{
+	color: black;
+	text-decoration: none;
+}
+
+.navi a{
+	padding-top: 5px;
+}
+
+.contacts{
+	padding-top: 40px;
+}
+
+.contacts div{
+	padding-top: 10px;
+}
+
+.contacts div p{
+	padding-top: 5px;
+}
+
+.map{
+	padding-top: 40px;
+}
+}
+
+@media screen and (max-width: 720px) {
+	* {
+		margin: 0 auto;
+		padding: 0;
+		scroll-behavior: smooth;
+	}
+
+	body {
+		max-width: 375px;
+		font-family: 'Raleway', sans-serif;
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+	}
+
+	header img {
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	header ul {
+		margin-left: 300px;
+	}
+	
+	.navigation {
+	   display: none;
+	}
+	
+	.open-nav:hover > .navigation {
+      display: flex;
+   }
+
+   .open-nav:hover {
+      display: none;
+   }
+
+	.navigation li {
+		list-style: none;
+	}
+
+	.navigation ul li a {
+		color: black;
+		text-decoration: none;
+	}
+	
+.tovar{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.tovar .tovars{
+	width: 320px;
+	height: 320px;
+	display: block;
+	text-align: center;
+	justify-content: center;
+	padding-bottom: 15px;
+}
+
+.info{
+	margin-left: 27px;
+	margin-right: 27px;
+}
+
+.info h3{
+	padding-top: 10px;
+}
+
+.info p{
+	padding-top: 10px;
+}
+
+.info ul{
+	margin-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.info ul li{
+	padding-top: 5px;
+}
+
+.info h1{
+	font-size: 24px;
+}
+
+.info h2{
+	padding-top: 10px;
+	font-size: 23px;
+}
+
+.info a{
+	text-decoration: none;
+	background-color: white;
+	border: 1px solid black;
+	color: black;
+	border-radius: 35px;
+	padding: 10px;
+	margin-left: 30px;
+	transition: 1s;
+}
+
+.info a:hover{
+	color: white;
+	background-color: black;
+	transform: 0,5s;
+}
+
+footer {
+		background-color: #bfbfbf;
+		margin-top: 10px;
+	}
+
+	.inf{
+		display: flex;
+		flex-direction: row;
+	}
+
+	iframe {
+		padding-left: 35px;
+		padding-top: 15px;
+		width: 300px;
+		height: 150px;
+		padding-bottom: 20px;
+	}
+
+	.menu {
+		padding-top: 10px;
+	}
+
+	.navi {
+		display: flex;
+		flex-direction: column;
+		padding-top: 10px;
+	}
+
+	.navi a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.navi a {
+		padding-top: 5px;
+	}
+
+	.contacts {
+		padding-top: 10px;
+	}
+
+	.contacts div {
+		padding-top: 10px;
+	}
+
+	.contacts div p {
+		padding-top: 5px;
+	}
+
+	.map h3{
+		padding-left: 35px;
+	}
+
+	.map {
+		padding-top: 10px;
+	}
+}

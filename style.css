@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@media screen and (min-width: 720px) {
+	* {
+		margin: 0 auto;
+		padding: 0;
+		scroll-behavior: smooth;
+	}
+
+	body {
+		max-width: 1400px;
+		font-family: 'Raleway', sans-serif;
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+	}
+
+	header {
+		height: 120px;
+	}
+
+	header img {
+		margin-left: 100px;
+		margin-top: 50px;
+	}
+
+	header ul {
+		display: inline-flex;
+		margin-left: 950px;
+	}
+
+	header li {
+		list-style: none;
+		font-size: 25px;
+		margin-left: 50px;
+		transition: 1s;
+	}
+
+	header li:hover {
+		transform: 0.5s;
+	}
+
+	.navigation {
+		margin-top: -28px;
+	}
+
+	.navigation ul li a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.about {
+		padding-top: 50px;
+	}
+
+	.about h1 {
+		font-size: 30px;
+		font-weight: 800;
+		text-align: center;
+	}
+
+	.about p {
+		font-size: 24px;
+		text-align: center;
+		padding-top: 15px;
+	}
+
+	.reviews {
+		padding-top: 100px;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.reviews div {
+		width: 300px;
+	}
+
+	.reviews div img {
+		border-radius: 50%;
+		padding-bottom: 10px;
+	}
+
+	.reviews div h2 {
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.reviews div p {
+		font-size: 18px;
+		padding-top: 10px;
+	}
+
+	.stars {
+		padding-top: 15px;
+	}
+
+	.searching {
+		padding-top: 80px;
+	}
+
+	.searching h2 {
+		font-size: 28px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.searching form {
+		padding-top: 30px;
+		margin-left: 395px;
+	}
+
+	.search-field {
+		width: 500px;
+		height: 40px;
+		border-radius: 25px;
+		padding-left: 10px;
+		border: 1px solid black;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.search-button {
+		width: 100px;
+		height: 40px;
+		background-color: white;
+		color: black;
+		border: 1px solid black;
+		border-radius: 35px;
+		font-family: 'Raleway', sans-serif;
+		transition: 1s;
+	}
+
+	.search-button:hover {
+		color: white;
+		background-color: black;
+		transform: 0.5s;
+	}
+
+	.production {
+		display: flex;
+		flex-direction: row;
+		margin: 0 auto;
+		padding-top: 100px;
+	}
+
+	.production a {
+		color: black;
+		text-decoration: none;
+		font-size: 20px;
+		margin-top: 480px;
+		position: absolute;
+		margin-left: 640px;
+	}
+
+	.production a:hover {
+		font-weight: bold;
+	}
+
+	.product {
+		width: 350px;
+		border-radius: 35px;
+	}
+
+	.product h3 {
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	.product p {
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	#order {
+		padding-top: 100px;
+		padding-bottom: 30px;
+	}
+
+	#order h2 {
+		text-align: center;
+		font-size: 24px;
+	}
+
+	.infographika {
+		display: flex;
+		flex-direction: row;
+		padding-top: 50px;
+	}
+
+	.infographika div {
+		width: 400px;
+		height: 350px;
+		border-radius: 50%;
+		background-color: #def2fa;
+		margin-left: 40px;
+		margin-right: 20px;
+	}
+
+	.infographika div img {
+		margin-top: 30px;
+		margin-left: 148px;
+	}
+
+	.infographika div h3 {
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.infographika div p {
+		text-align: center;
+		width: 250px;
+		padding-top: 10px;
+	}
+
+	.submit {
+		padding-top: 80px;
+	}
+
+	.submit h3 {
+		text-align: center;
+		font-weight: 800px;
+	}
+
+	.submit form {
+		padding-top: 30px;
+		margin-left: 500px;
+	}
+
+	.submit form input {
+		width: 300px;
+		height: 30px;
+		border-radius: 35px;
+		padding-left: 10px;
+		border: 1px solid black;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.submit form button {
+		width: 100px;
+		height: 33px;
+		background-color: white;
+		color: black;
+		border: 1px solid black;
+		transition: 1s;
+		border-radius: 35px;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.submit form button:hover {
+		color: white;
+		background-color: black;
+		transform: 0.5s;
+	}
+
+	footer {
+		background-color: #bfbfbf;
+		display: flex;
+		flex-direction: row;
+		margin: 0 auto;
+		margin-top: 100px;
+	}
+
+	iframe {
+		padding-top: 15px;
+		width: 600px;
+		height: 300px;
+		padding-bottom: 20px;
+	}
+
+	.menu {
+		padding-top: 40px;
+	}
+
+	.navi {
+		display: flex;
+		flex-direction: column;
+		padding-top: 10px;
+	}
+
+	.navi a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.navi a {
+		padding-top: 5px;
+	}
+
+	.contacts {
+		padding-top: 40px;
+	}
+
+	.contacts div {
+		padding-top: 10px;
+	}
+
+	.contacts div p {
+		padding-top: 5px;
+	}
+
+	.map {
+		padding-top: 40px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	* {
+		margin: 0 auto;
+		padding: 0;
+		scroll-behavior: smooth;
+	}
+
+	body {
+		max-width: 375px;
+		font-family: 'Raleway', sans-serif;
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+	}
+
+	header img {
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	header ul {
+		margin-left: 300px;
+	}
+
+	.navigation li {
+		list-style: none;
+	}
+
+	.navigation ul li a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.about {
+		padding-top: 10px;
+	}
+
+	.about h1 {
+		font-size: 20px;
+		font-weight: 800;
+		text-align: center;
+	}
+
+	.about p {
+		font-size: 16px;
+		text-align: center;
+		padding-top: 5px;
+	}
+
+	.reviews {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.reviews div {
+		padding-top: 30px;
+		width: 300px;
+	}
+
+	.reviews div img {
+		border-radius: 50%;
+		padding-bottom: 10px;
+	}
+
+	.reviews div h2 {
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.reviews div p {
+		font-size: 16px;
+		padding-top: 5px;
+	}
+
+	.searching {
+		padding-top: 30px;
+	}
+
+	.searching h2 {
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.searching form {
+		padding-top: 15px;
+		margin-left: 23px;
+	}
+
+	.search-field {
+		width: 250px;
+		height: 30px;
+		border-radius: 25px;
+		padding-left: 10px;
+		border: 1px solid black;
+		font-family: 'Raleway', sans-serif;
+		font-size: 14px;
+	}
+
+	.search-button {
+		font-size: 12px;
+		width: 70px;
+		height: 30px;
+		background-color: white;
+		color: black;
+		border: 1px solid black;
+		border-radius: 35px;
+		font-family: 'Raleway', sans-serif;
+		transition: 1s;
+	}
+
+	.search-button:hover {
+		color: white;
+		background-color: black;
+		transform: 0.5s;
+	}
+
+	.production {
+		display: flex;
+		flex-direction: column;
+		padding-top: 50px;
+	}
+
+	.product img{
+		margin-left: -25px;
+	}
+
+	.production a {
+		color: black;
+		text-decoration: none;
+		font-size: 20px;
+		margin-left: 125px;
+	}
+
+	.production a:hover {
+		font-weight: bold;
+	}
+
+	.product {
+		width: 300px;
+	}
+
+	.product h3 {
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.product p {
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	#order {
+		padding-top: 30px;
+	}
+
+	#order h2 {
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.infographika {
+		display: flex;
+		flex-direction: column;
+		padding-top: 20px;
+	}
+
+	.infographika div {
+		width: 300px;
+		height: 250px;
+	}
+
+	.infographika div img {
+		margin-left: 100px;
+	}
+
+	.infographika div h3 {
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.infographika div p {
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.submit {
+		padding-bottom: 30px;
+	}
+
+	.submit h3 {
+		text-align: center;
+		font-weight: 800px;
+		font-size: 20px;
+	}
+
+	.submit form {
+		padding-top: 20px;
+		margin-left: 30px;
+	}
+
+	.submit form input {
+		width: 200px;
+		height: 30px;
+		border-radius: 35px;
+		padding-left: 10px;
+		border: 1px solid black;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.submit form button {
+		width: 100px;
+		height: 33px;
+		background-color: white;
+		color: black;
+		border: 1px solid black;
+		transition: 1s;
+		border-radius: 35px;
+		font-family: 'Raleway', sans-serif;
+	}
+
+	.submit form button:hover {
+		color: white;
+		background-color: black;
+		transform: 0.5s;
+	}
+
+	footer {
+		background-color: #bfbfbf;
+		margin-top: 10px;
+	}
+
+	.inf{
+		display: flex;
+		flex-direction: row;
+	}
+
+	iframe {
+		padding-left: 35px;
+		padding-top: 15px;
+		width: 300px;
+		height: 150px;
+		padding-bottom: 20px;
+	}
+
+	.menu {
+		padding-top: 10px;
+	}
+
+	.navi {
+		display: flex;
+		flex-direction: column;
+		padding-top: 10px;
+	}
+
+	.navi a {
+		color: black;
+		text-decoration: none;
+	}
+
+	.navi a {
+		padding-top: 5px;
+	}
+
+	.contacts {
+		padding-top: 10px;
+	}
+
+	.contacts div {
+		padding-top: 10px;
+	}
+
+	.contacts div p {
+		padding-top: 5px;
+	}
+
+	.map h3{
+		padding-left: 35px;
+	}
+
+	.map {
+		padding-top: 10px;
+	}
+}
